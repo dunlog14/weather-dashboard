@@ -1,0 +1,107 @@
+/* Set the background color of the body */
+body {
+    background-color: #eee;
+  }
+  
+  /* Center the content container and give it a max width */
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  /* Add a box shadow to the content container */
+  .container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Set the font size and line height of headings */
+  h1, h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  
+  /* Style the search input */
+  .search-input {
+    display: block;
+    width: 25%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Style the search button */
+  .search-button {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Style the weather card container */
+  .weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  /* Style the weather card heading */
+  .weather-card h2 {
+    margin: 0;
+  }
+  
+  /* Style the weather card icon */
+  .weather-card .icon {
+    width: 75px;
+    height: 75px;
+    margin: 0.5rem;
+  }
+  
+  /* Style the weather card temperature */
+  .weather-card .temperature {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Style the weather card details */
+  .weather-card .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  
+  /* Style the weather card detail items */
+  .weather-card .detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  /* Style the weather card detail item label */
+  .weather-card .detail-item .label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Style the weather card detail item value */
+  .weather-card .detail-item .value {
+    font-size: 1.2rem;
+  }
+  
