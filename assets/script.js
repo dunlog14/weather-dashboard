@@ -1,3 +1,1 @@
-// API Key
-var API_key = "0467c31ea22a763122a57012976f1e50"; 
-
+const apiKey = 'e731919dcf2dde965509ea55a5e4afc7';
