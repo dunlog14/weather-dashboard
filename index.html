@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Enter a city">
+        <button type="submit">Search</button>
+      </form>
+      <div id="weather-card" class="hidden">
+        <h2 class="city-name"></h2>
+        <img class="icon" src="" alt="Weather Icon">
+        <div class="temperature"></div>
+        <div class="details">
+          <div class="detail-item">
+            <div class="label">Humidity</div>
+            <div class="value humidity"></div>
+          </div>
+          <div class="detail-item">
+            <div class="label">Wind</div>
+            <div class="value wind-speed"></div>
+            <div class="value wind-direction"></div>
+          </div>
+          <div class="detail-item">
+            <div class="label">Pressure</div>
+            <div class="value pressure"></div>
+          </div>
+        </div>
+      </div>
+      <div id="forecast" class="hidden">
+        <h3>5-Day Forecast</h3>
+        <div id="forecast-cards"></div>
+      </div>
+      <div id="search-history">
+        <h3>Search History</h3>
+        <ul id="history-list"></ul>
+      </div>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
