@@ -14,6 +14,6 @@ This weather dashboard allows users to search specific cities for the current we
 
 ## Images
 
-![img](Assets/images/Screen%20Shot%202023-04-30%20at%2012.25.30%20PM.png)
+![img](assets/images/html-img.png)
 
 ## Deployed Link
